@@ -1,0 +1,9 @@
+@use './base/reset.scss';
+@use './base/base.scss';
+@use './base/fonts.scss';
+@use './base/typography.scss';
+
+// components
+@use './components/header.scss';
+@use './components/intro.scss';
+@use './components/about.scss';

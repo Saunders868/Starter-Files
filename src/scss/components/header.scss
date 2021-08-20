@@ -1,0 +1,39 @@
+@use '../base/variables.scss' as *;
+
+.header {
+    background-color: $bg-color;
+    color: $text-color;
+    text-align: center;
+    padding: 20px 0;
+
+    &__container {
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__brand {
+        h1 {
+            font-size: 20px;
+        }
+
+        a {
+            color: $text-color;
+        }
+    }
+    &__nav {
+        ul {
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                margin-left: 20px;
+                &:nth-child(1) {
+                    margin-left: 0;
+                }
+
+                a {
+                    color: $text-color;
+                }
+            }
+        }
+    }
+}
