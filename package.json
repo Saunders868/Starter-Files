@@ -1,0 +1,35 @@
+{
+    "name": "starter-files",
+    "version": "1.0.0",
+    "description": "A starter file repo",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Saunders868/Starter-Files.git"
+    },
+    "author": "Daniel Saunders",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Saunders868/Starter-Files/issues"
+    },
+    "homepage": "https://github.com/Saunders868/Starter-Files#readme",
+    "devDependencies": {
+        "@babel/core": "^7.15.0",
+        "@babel/preset-env": "^7.15.0",
+        "babel-loader": "^8.2.2",
+        "clean-webpack-plugin": "^4.0.0-alpha.0",
+        "copy-webpack-plugin": "^9.0.1",
+        "dart-sass": "^1.25.0",
+        "file-loader": "^6.2.0",
+        "mini-css-extract-plugin": "^2.2.0",
+        "sass-loader": "^12.1.0",
+        "webpack": "^5.51.1",
+        "webpack-cli": "^4.8.0",
+        "webpack-dev-server": "^4.0.0",
+        "webpack-merge": "^5.8.0"
+    }
+}
